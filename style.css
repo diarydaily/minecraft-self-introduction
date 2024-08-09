@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#main {
+  position: fixed;
+  background-image: url(マイクラ自己紹介カード背景.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  margin: 10px 0 0 30px;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+form {
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+  height: 10vh;
+  width: 25vw;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+::placeholder {
+  font-family: sans-serif;
+}
